@@ -1,6 +1,14 @@
+var webpack = require("webpack");
+
 module.exports={
-  entry:'./index.js',
-  output:{filename:'index.bundle.js'},
+  entry:{
+    index:'./index.js',
+    vendor: ['react','react-dom','react-pacomo']
+  },
+  output: {
+    path: "bundle",
+    filename: "[name].bundle.js",
+  },
   module:{
     loaders:[
       {
@@ -13,5 +21,8 @@ module.exports={
         loader: "style!css!less"
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'vendor.bundle.js' })
+  ]
 }
