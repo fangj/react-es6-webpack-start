@@ -3,4 +3,4 @@ import { withPackageName } from 'react-pacomo'
 export const {
   decorator,
   transformer,
-} = withPackageName('app')
+} = withPackageName('App')

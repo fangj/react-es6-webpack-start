@@ -16,8 +16,17 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less-loader": "^2.2.2",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-pacomo": "^0.5.1"
+    "react-pacomo": "^0.5.1",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0"
   }
 }
