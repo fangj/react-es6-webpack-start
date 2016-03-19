@@ -13,13 +13,13 @@ webpackJsonp([0],{
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _Knight = __webpack_require__(159);
+	var _knight = __webpack_require__(159);
 
-	var _Knight2 = _interopRequireDefault(_Knight);
+	var _knight2 = _interopRequireDefault(_knight);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_reactDom2.default.render(_react2.default.createElement(_Knight2.default, null), document.getElementById('root'));
+	_reactDom2.default.render(_react2.default.createElement(_knight2.default, null), document.getElementById('root'));
 
 /***/ },
 
@@ -51,6 +51,7 @@ webpackJsonp([0],{
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+	// require('./knight.css');
 	__webpack_require__(163);
 
 	var Knight = (0, _pacomo.decorator)(_class = function (_Component) {
