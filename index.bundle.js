@@ -19681,7 +19681,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactPacomo = __webpack_require__(160);
+	var _pacomo = __webpack_require__(163);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19691,12 +19691,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _withPackageName = (0, _reactPacomo.withPackageName)('NewApp');
-
-	var decorator = _withPackageName.decorator;
-	var transformer = _withPackageName.transformer;
-
-	var Knight = decorator(_class = function (_Component) {
+	var Knight = (0, _pacomo.decorator)(_class = function (_Component) {
 	  _inherits(Knight, _Component);
 
 	  function Knight() {
@@ -19991,6 +19986,27 @@
 		}
 	}());
 
+
+/***/ },
+/* 162 */,
+/* 163 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.transformer = exports.decorator = undefined;
+
+	var _reactPacomo = __webpack_require__(160);
+
+	var _withPackageName = (0, _reactPacomo.withPackageName)('app');
+
+	var decorator = _withPackageName.decorator;
+	var transformer = _withPackageName.transformer;
+	exports.decorator = decorator;
+	exports.transformer = transformer;
 
 /***/ }
 /******/ ]);

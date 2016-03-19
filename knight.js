@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { withPackageName } from 'react-pacomo'
-const { decorator, transformer } = withPackageName('NewApp')
+import { decorator, transformer } from './pacomo';
 
 @decorator
 export default class Knight extends Component {
