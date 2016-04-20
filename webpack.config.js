@@ -3,7 +3,8 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports={
   entry:{
     index:'./index.js',
-    vendor: ['react','react-dom','react-pacomo']
+    remote:'./remote.js',
+    vendor: ['react','react-dom']
   },
   output: {
     path: "bundle",
